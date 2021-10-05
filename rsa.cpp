@@ -388,7 +388,7 @@ long RabinMillerKnl(unsigned long n)
         int xxxx = 2;
         xxx = xxxx;
         v = PowMod(v, xxx, n);
-        ++i;        //循环到5
+        ++i;
     }    return 1;
 }
 /*
